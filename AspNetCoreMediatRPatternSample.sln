@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NighTrain.Sample.Application", "NighTrain.Sample.Application\NighTrain.Sample.Application.csproj", "{0DDD53FC-8687-4674-88AD-84AB23A891D0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NighTrain.Sample.Domain", "NighTrain.Sample.Domain\NighTrain.Sample.Domain.csproj", "{B3B2FE0F-F6DE-4B27-B975-6DA6865D350C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NighTrain.Sample.IoC", "NighTrain.Sample.IoC\NighTrain.Sample.IoC.csproj", "{74007DF5-1063-40D8-8029-5B138B3CBFFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NighTrain.Sample.Data", "NighTrain.Sample.Data\NighTrain.Sample.Data.csproj", "{B6670BCC-CF0E-47CF-B009-B257EE991FA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NighTrain.Sample.WebAPI", "NighTrain.Sample.WebAPI\NighTrain.Sample.WebAPI.csproj", "{A360A890-C160-4F1C-AD6A-F14379ED9FC1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{31E0A68A-6582-4568-BDF9-1144AF8C5001}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DDD53FC-8687-4674-88AD-84AB23A891D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DDD53FC-8687-4674-88AD-84AB23A891D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DDD53FC-8687-4674-88AD-84AB23A891D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DDD53FC-8687-4674-88AD-84AB23A891D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3B2FE0F-F6DE-4B27-B975-6DA6865D350C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3B2FE0F-F6DE-4B27-B975-6DA6865D350C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3B2FE0F-F6DE-4B27-B975-6DA6865D350C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3B2FE0F-F6DE-4B27-B975-6DA6865D350C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74007DF5-1063-40D8-8029-5B138B3CBFFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74007DF5-1063-40D8-8029-5B138B3CBFFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74007DF5-1063-40D8-8029-5B138B3CBFFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74007DF5-1063-40D8-8029-5B138B3CBFFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6670BCC-CF0E-47CF-B009-B257EE991FA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6670BCC-CF0E-47CF-B009-B257EE991FA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6670BCC-CF0E-47CF-B009-B257EE991FA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6670BCC-CF0E-47CF-B009-B257EE991FA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A360A890-C160-4F1C-AD6A-F14379ED9FC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A360A890-C160-4F1C-AD6A-F14379ED9FC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A360A890-C160-4F1C-AD6A-F14379ED9FC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A360A890-C160-4F1C-AD6A-F14379ED9FC1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0DDD53FC-8687-4674-88AD-84AB23A891D0} = {31E0A68A-6582-4568-BDF9-1144AF8C5001}
+		{B3B2FE0F-F6DE-4B27-B975-6DA6865D350C} = {31E0A68A-6582-4568-BDF9-1144AF8C5001}
+		{74007DF5-1063-40D8-8029-5B138B3CBFFB} = {31E0A68A-6582-4568-BDF9-1144AF8C5001}
+		{B6670BCC-CF0E-47CF-B009-B257EE991FA9} = {31E0A68A-6582-4568-BDF9-1144AF8C5001}
+		{A360A890-C160-4F1C-AD6A-F14379ED9FC1} = {31E0A68A-6582-4568-BDF9-1144AF8C5001}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {586F2D33-BDAC-4880-8FC7-6CBB3795F835}
+	EndGlobalSection
+EndGlobal
